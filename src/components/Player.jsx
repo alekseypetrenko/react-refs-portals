@@ -9,10 +9,6 @@ export default function Player() {
     setEnteredPlayername(playerName.current.value);
   }
 
-  function handleChange() {
-    setEnteredPlayername(playerName.current.value);
-  }
-
   return (
     <section id="player">
       <h2>Welcome {enteredPlayername && "unknown"}</h2>
